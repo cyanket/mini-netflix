@@ -1,71 +1,81 @@
-## Setup
+# Mini Netflix – Vue/Nuxt Coding Exercise
 
-Make sure to install dependencies:
+A simple and responsive Mini Netflix clone built with **Nuxt 3**, **Vue.js**, and **Tailwind CSS**, using the **OMDb API** to fetch movie data.
+
+---
+
+## Features
+
+- Browse a list of movies with posters and release years
+- View movie details
+- Skeleton loaders for improved UX during API calls
+- Responsive UI with Tailwind CSS
+- Accessible (WCAG-focused) with semantic HTML and proper ARIA attributes
+- Nuxt server route to proxy OMDb API calls (hides API key)
+
+---
+
+## Tech Stack
+
+- Nuxt 3
+- Vue 3
+- Tailwind CSS
+- OMDb API
+- Heroicons
+
+---
+
+## Screenshots
+
+### Homepage (Movie List)
+![Movie List](./screenshots/homepage.png)
+
+### Movie Details
+
+![Movie Details](./screenshots/movie-details.png)
+
+---
+
+## Getting Started
+
+### Install dependencies
 
 ```bash
 # npm
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
+# Or yarn
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### Start Development Server
 
 ```bash
 # npm
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
+# Or yarn
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Visit `http://localhost:3000`:
 
-Build the application for production:
+### Build for Production
 
 ```bash
 # npm
 npm run build
 
-# pnpm
-pnpm build
-
-# yarn
+# Or yarn
 yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Preview production build locally:
 
 ```bash
 # npm
 npm run preview
 
-# pnpm
-pnpm preview
-
-# yarn
+# Or yarn
 yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
